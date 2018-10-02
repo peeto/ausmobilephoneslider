@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slider phone number selector</title>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+<!--
+
+function initPhoneSlider(slidersel,phonesel) {
+    $(slider).slider({
+        min: 400000000,
+        max: 499999999,
+        change: function(event, ui) {
+            var phnum = ui.value.toString();
+            while (phnum.length < 10) phnum = '0' + phnum;
+            $(phonesel).html(phnum);
+        }
+    });
+}
+
+$(function() {
+    initPhoneSlider("#slider", "#phone");
+});
+
+// -->
+</script>
+</head>
+<body>
+
+<h3>Enter your Australian mobile phone number</h3>
+<div id="slider"></div>
+
+<div id="phone"></div>
+ 
+</body>
+</html>
